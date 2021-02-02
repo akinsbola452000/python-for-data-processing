@@ -53,5 +53,5 @@ for user, counts in lisCounts.iteritems():
     mobileCounts.append(counts[1][1])
 print stats.ttest_ind(womenCounts, menCounts, equal_var=False)
 print stats.ttest_rel(mobileCounts, nonmobileCounts)
-print men
-print women
+print (men)
+print(women)
